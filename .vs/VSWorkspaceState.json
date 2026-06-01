@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\target",
+    "\\target\\maven-status",
+    "\\target\\maven-status\\maven-compiler-plugin",
+    "\\target\\maven-status\\maven-compiler-plugin\\testCompile",
+    "\\target\\maven-status\\maven-compiler-plugin\\testCompile\\default-testCompile",
+    "\\target\\site",
+    "\\target\\site\\jacoco",
+    "\\target\\test-classes",
+    "\\target\\test-classes\\com",
+    "\\target\\test-classes\\com\\mycompany",
+    "\\target\\test-classes\\com\\mycompany\\app"
+  ],
+  "SelectedNode": "\\src\\main\\java\\com\\mycompany\\app\\Game.java",
+  "PreviewInSolutionExplorer": false
+}

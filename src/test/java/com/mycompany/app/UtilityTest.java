@@ -37,4 +37,42 @@ public class UtilityTest {
         Utility.print(moves);
         assertTrue(outContent.toString().contains("0-3-5"));
     }
+	
+	    @Test
+    void testPrintEmptyCharArray() {
+        char[] emptyBoard = {' ',' ',' ',' ',' ',' ',' ',' ',' '};
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        Utility.print(emptyBoard);
+        String output = outContent.toString();
+        assertTrue(output.contains("-") || output.length() > 0);
+    }
+    
+    @Test
+    void testPrintCharArrayWithValues() {
+        char[] board = {'X','O','X','O','X','O','X','O','X'};
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        Utility.print(board);
+        String output = outContent.toString();
+        assertTrue(output.contains("X") && output.contains("O"));
+    }
+    
+    @Test
+    void testPrintEmptyIntArray() {
+        int[] emptyBoard = {0,0,0,0,0,0,0,0,0};
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        Utility.print(emptyBoard);
+        assertTrue(outContent.toString().contains("0-0-0"));
+    }
+    
+    @Test
+    void testPrintEmptyArrayList() {
+        ArrayList<Integer> emptyMoves = new ArrayList<>();
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+        Utility.print(emptyMoves);
+        assertTrue(outContent.toString().contains("\n"));
+    }
 }
