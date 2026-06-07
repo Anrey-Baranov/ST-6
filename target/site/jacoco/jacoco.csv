@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+TicTacToe,com.mycompany.app,Game,0,528,5,105,0,90,5,57,0,7
+TicTacToe,com.mycompany.app,Player,0,3,0,0,0,1,0,1,0,1
+TicTacToe,com.mycompany.app,ProgramTest,14,2104,17,15,2,224,16,45,0,45
+TicTacToe,com.mycompany.app,Program,32,0,0,0,7,0,2,0,2,0
+TicTacToe,com.mycompany.app,TicTacToeCell,0,52,0,0,0,16,0,6,0,6
+TicTacToe,com.mycompany.app,Utility,3,73,0,6,1,15,1,6,1,3
+TicTacToe,com.mycompany.app,State,0,27,0,0,0,1,0,1,0,1
+TicTacToe,com.mycompany.app,TicTacToePanel,260,0,14,0,46,0,10,0,3,0
